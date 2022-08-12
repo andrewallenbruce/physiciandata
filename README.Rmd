@@ -16,16 +16,19 @@ knitr::opts_chunk$set(
 # physiciandata
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/andrewallenbruce/physiciandata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/andrewallenbruce/physiciandata/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 The goal of physiciandata is to ...
 
 ## Installation
 
-You can install the development version of physiciandata like so:
+You can install the development version of physiciandata from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("andrewallenbruce/physiciandata")
 ```
 
 ## Example
